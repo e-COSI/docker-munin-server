@@ -1,5 +1,8 @@
 # Docker image for munin server
 
+Forked from https://github.com/Scalingo/docker-munin-server
+Change node unicity to NAME in order to accept multiple nodes with same IP and different Ports.
+
 ## Configuration
 
 All the configuration is done through the environment.
